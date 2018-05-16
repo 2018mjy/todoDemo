@@ -1,0 +1,145 @@
+
+.phone-bottom {
+    width: 360px;
+    height: 640px;
+    border: solid 1px ;
+    background-color: antiquewhite;
+    -moz-box-shadow: 8px -3px 39px #000000;
+    -webkit-box-shadow: 8px -3px 39px #000000;
+    box-shadow: 8px -3px 39px #000000;
+    border:dashed 0px #000000;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin: 0 auto;
+    z-index: -1;
+}
+.phone-bottom-top {
+    position: relative;
+    width: 360px;
+    height: 30px;
+    font-size: 17px;
+    border-bottom: solid 1px blanchedalmond;
+    background-color: lightgoldenrodyellow;
+}
+.phone-bottom-top div {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.listdiv {
+    width: 22px;
+    height: 22px;
+    left: 10px;
+}
+.listimg {
+    width: 100%;
+    height: 100%;
+}
+.listdiv:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+.plusdiv {
+    right: 10px;
+    width: 22px;
+    height: 22px;
+}
+.plusimg {
+    width: 100%;
+    height: 100%;
+}
+.plusdiv:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+.title {
+    width: 68px;
+    height: 22px;
+    left: 40%;
+    font-family: YouYuan;
+}
+
+.todo-container {
+    position: relative;
+    width: 360px;
+    height:400px;
+    display:block;
+}
+.todocell {
+    position: relative;
+    width: 360px;
+    height: 50px;
+    background-color: aliceblue;
+    border-bottom: solid 1px blanchedalmond;
+    border-radius: 11px;
+}
+.todotime {
+    position: relative;
+    width: 360px;
+    height: 15px;
+    font-size: 14px;
+}
+.timespan {
+    position: relative;
+    left: 10px;
+}
+.todocontent {
+    position: relative;
+    width: 360px;
+    height: 35px;
+    font-size: 17px;
+    background-color: aliceblue;
+}
+
+.todocontent div {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.minusdiv {
+    width: 22px;
+    height: 22px;
+    left: 10px;
+}
+.minusdiv:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+.minusimg {
+    width: 100%;
+    height: 100%;
+}
+.checkdiv {
+    right: 10px;
+    width: 22px;
+    height: 22px;
+}
+.checkimg {
+    width: 100%;
+    height: 100%;
+}
+.checkdiv:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+.spandiv {
+    width: 68px;
+    height: 22px;
+    left: 10%;
+    font-family: YouYuan;
+}
+
+div.spandiv:hover {
+    cursor: pointer;
+    color: yellow;
+}
+.show {
+    display: block;
+}
+.hidden {
+    display: none!important;
+}
+.check {
+    opacity: 0.5;
+}
